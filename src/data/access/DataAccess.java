@@ -10,7 +10,7 @@ class DataAccess {
 		Connection conn=null;
 		
 		//Read File
-		FileRead fread = new FileRead("/Users/EddyWang/Documents/JavaCodes/Hackathon/data2.txt");
+		FileRead fread = new FileRead("/Users/EddyWang/Documents/JavaCodes/Hackathon/data3.txt");
 		
 		//Get ArrayList of data
 		data = fread.getMusicData();

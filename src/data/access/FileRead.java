@@ -19,7 +19,7 @@ public class FileRead {
 		ArrayList<MusicData> mdata = new ArrayList<MusicData>();	
 		String str;
 		while((str = in.readLine())!= null){
-			String[] data = str.split(",");
+			String[] data = str.split("\t");
 			mdata.add(new MusicData(data[0], data[1], Integer.parseInt(data[2]), data[3], data[4]));
 		}
 		return mdata;
